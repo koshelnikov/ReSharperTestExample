@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleLibrary.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ExampleLibrary.Fakes.ShimExampleClass">
+            <summary>Shim type of ExampleLibrary.ExampleClass</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimExampleClass.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimExampleClass.#ctor(ExampleLibrary.ExampleClass)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimExampleClass.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimExampleClass.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimExampleClass.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimExampleClass.Constructor">
+            <summary>Sets the shim of ExampleClass.ExampleClass()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimExampleClass.NameGet">
+            <summary>Sets the shim of ExampleClass.get_Name()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimExampleClass.NameSetString">
+            <summary>Sets the shim of ExampleClass.set_Name(String value)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimExampleClass.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimExampleClass.AllInstances.NameGet">
+            <summary>Sets the shim of ExampleClass.get_Name()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimExampleClass.AllInstances.NameSetString">
+            <summary>Sets the shim of ExampleClass.set_Name(String value)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.StubExampleClass">
+            <summary>Stub type of ExampleLibrary.ExampleClass</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubExampleClass.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubExampleClass.InitializeStub">
+            <summary>Initializes a new instance of type StubExampleClass</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubExampleClass.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubExampleClass.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubExampleClass.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
